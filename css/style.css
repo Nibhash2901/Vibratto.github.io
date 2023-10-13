@@ -1,8 +1,8 @@
 ﻿/*
-  * Name: Drums Band Parallax Landing Page HTML Template
+  * Name: Vibratto School of Music
   * Version: 1.0
-  * Author: Glowlogix
-  * Author URL: https://demo.glowlogix.com.pk/templates/drums-band/index.html
+  * Author: Lazy Studio
+  * Author URL: https://lazystudio.co.in/
 */
 
 @import url('../../../css2');
@@ -302,7 +302,7 @@ section {
     padding              : 0px;
     background           : url(../images/hero.jpg);
     background-repeat    : no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position-y: bottom;
 }
 
@@ -817,7 +817,7 @@ section {
 }
 
 .classes-block {
-    background   : rgb(229 33 80 / 10%);
+    background   : #e52150;
     border       : 1px solid var(--primary-color-300);
     border-radius: 16px;
     transition   : 0.5s cubic-bezier(0, 0, 0.43, 1.7);
@@ -1469,6 +1469,7 @@ h2.popup-message {
 
     .home-bg {
         background-position: bottom;
+        background-size: cover;
     }
 
     .home-content-inner {
